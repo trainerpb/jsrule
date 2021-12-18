@@ -1,7 +1,9 @@
-var  myGoodFunctionA=function(x,y){
-	s= "My result is"+(x+y);
-	print(s);
-	return s;
+function demoRule1(x,y){
+	return x+y;
 }
 
-w=myGoodFunctionA(x,y);
+function demoRule2(objStudent){
+	print(objStudent+"\t"+objStudent.sex);
+	return (objStudent.sex=="Female")? "30%":"20%";
+
+}
